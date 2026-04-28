@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>MainProject</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>Day02-BasicConcept</module>
+        <module>Day03-Operator</module>
+        <module>Day04-ConditionAndLoop</module>
+        <module>Day05-LoopTestbook</module>
+        <module>Day06-Method</module>
+        <module>Day07-Comprehensive_Exercise</module>
+        <module>Day08-OOP</module>
+        <module>Day09-OOP-Practice</module>
+        <module>Day10-String</module>
+        <module>Day11-OOP_Plus_ArrayList_StudentsMS</module>
+        <module>Day14-OOP_Plus_Comprehensive_Exercis</module>
+        <module>Day15-AbstractClass_Interface_InnerClass</module>
+        <module>Day16-Event</module>
+        <module>Day16_17-Jigsawgame</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+</project>

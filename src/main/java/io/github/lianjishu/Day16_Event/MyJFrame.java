@@ -7,7 +7,6 @@ import java.awt.event.ActionListener;
 import java.util.Random;
 
 public class MyJFrame extends JFrame implements ActionListener {
-    private int count = 0;
     JButton jButton01 = new JButton();
     JButton jButton02 = new JButton();
     @Override

@@ -1,4 +1,4 @@
-package Array;
+package io.github.lianjishu.Day06_Method;
 
 public class SwapArrNum {
 

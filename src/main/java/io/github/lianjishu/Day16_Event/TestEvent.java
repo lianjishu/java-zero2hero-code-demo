@@ -1,3 +1,4 @@
+package io.github.lianjishu.Day16_Event;
 
 public class TestEvent {
     //程序入口

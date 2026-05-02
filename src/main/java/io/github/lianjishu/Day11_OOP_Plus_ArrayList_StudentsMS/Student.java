@@ -1,3 +1,4 @@
+package io.github.lianjishu.Day11_OOP_Plus_ArrayList_StudentsMS;
 public class Student {
     private String sid;
     private String name;

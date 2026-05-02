@@ -1,3 +1,4 @@
+package io.github.lianjishu.Day15_AbstractClass_Interface_InnerClass;
 
 public class Frog extends Pet implements Swimming {
     public Frog() {

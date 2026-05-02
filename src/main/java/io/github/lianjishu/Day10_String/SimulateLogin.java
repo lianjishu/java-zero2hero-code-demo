@@ -1,3 +1,4 @@
+package io.github.lianjishu.Day10_String;
 import java.util.Scanner;
 public class SimulateLogin {
     static Scanner sc = new Scanner(System.in);
@@ -11,7 +12,7 @@ public class SimulateLogin {
             String input_uname = sc.next();
             System.out.println("请输入密码");
             String input_pword = sc.next();
-            if(input_uname.equals(uname) || input_pword.equals(pword)) {
+            if(input_uname.equals(uname) && input_pword.equals(pword)) {
                 System.out.println("登录成功! ");
                 break;
             }else{

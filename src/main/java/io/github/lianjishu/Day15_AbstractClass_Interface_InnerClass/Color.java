@@ -1,3 +1,4 @@
+package io.github.lianjishu.Day15_AbstractClass_Interface_InnerClass;
 enum Color {
     RED(0, "红"), GREEN(1, "绿"), BLUE(2, "蓝");
 

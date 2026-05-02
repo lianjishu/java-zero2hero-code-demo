@@ -1,4 +1,4 @@
-import com.sun.jdi.event.ThreadStartEvent;
+package io.github.lianjishu.Day08_OOP;
 
 public class User {
     // 属性

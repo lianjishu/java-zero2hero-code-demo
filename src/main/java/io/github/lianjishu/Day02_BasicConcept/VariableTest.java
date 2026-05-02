@@ -1,3 +1,4 @@
+package io.github.lianjishu.Day02_BasicConcept;
 public class VariableTest {
     //变量小练习
     private static int counting(){

@@ -1,3 +1,4 @@
+package io.github.lianjishu.Day02_BasicConcept;
 public class BasicDataType {
     //基本数据类型
     public static void basic_data_type(){

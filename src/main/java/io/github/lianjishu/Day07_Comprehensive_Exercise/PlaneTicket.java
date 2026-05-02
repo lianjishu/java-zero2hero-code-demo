@@ -1,3 +1,4 @@
+package io.github.lianjishu.Day07_Comprehensive_Exercise;
 import  java.util.Scanner;
 /**
  * 练习一：飞机票

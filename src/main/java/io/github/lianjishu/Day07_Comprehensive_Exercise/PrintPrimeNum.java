@@ -1,3 +1,4 @@
+package io.github.lianjishu.Day07_Comprehensive_Exercise;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
@@ -17,7 +18,7 @@ public class PrintPrimeNum {
 
     static boolean isPrime(int num) {
         for(int i=2; i<num; ++i) {
-            if(num/i == 0)
+            if(num % i == 0)
                 return false;
         }
         return true;

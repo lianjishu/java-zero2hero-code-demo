@@ -1,3 +1,4 @@
+package io.github.lianjishu.Day02_BasicConcept;
 class Teacher {
     String name;
     int age;

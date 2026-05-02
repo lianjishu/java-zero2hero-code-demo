@@ -1,3 +1,4 @@
+package io.github.lianjishu.Day16_Event;
 
 import javax.swing.*;
 import java.awt.event.MouseEvent;
@@ -5,9 +6,9 @@ import java.awt.event.MouseListener;
 import java.awt.event.MouseWheelEvent;
 import java.awt.event.MouseWheelListener;
 
-public class MyFrame extends JFrame {
+public class MouseListenerMyFrame extends JFrame {
     private int count = 0;
-    public MyFrame() {
+    public MouseListenerMyFrame() {
         final JButton jButton01 = new JButton("别点我");
         final JButton jButton02 = new JButton("测试滚轮");
 

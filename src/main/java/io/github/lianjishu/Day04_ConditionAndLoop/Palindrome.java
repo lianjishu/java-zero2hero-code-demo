@@ -1,3 +1,4 @@
+package io.github.lianjishu.Day04_ConditionAndLoop;
 import java.util.Scanner;
 //import java.util.
 public class Palindrome {

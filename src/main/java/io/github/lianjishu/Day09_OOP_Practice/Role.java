@@ -1,4 +1,4 @@
-import javax.swing.text.StyledEditorKit;
+package io.github.lianjishu.Day09_OOP_Practice;
 import java.util.Random;
 
 public class Role {

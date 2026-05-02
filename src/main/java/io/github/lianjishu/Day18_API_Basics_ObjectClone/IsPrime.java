@@ -1,3 +1,4 @@
+package io.github.lianjishu.Day18_API_Basics_ObjectClone;
 
 public class IsPrime {
     /*
@@ -6,6 +7,8 @@ public class IsPrime {
      * 判断一个数是否为一个质数
      */
     private boolean isPrime(int num) {
+        if (num <= 1)
+            return false;
         for (int i = 2; i < num; ++i) {
             if (num % i == 0)
                 return false;

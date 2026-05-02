@@ -1,3 +1,4 @@
+package io.github.lianjishu.Day02_BasicConcept;
 public class ValueDemo2 {
     public static void main(String[] args) {
         System.out.println("Using \\" + 't' + ':'+'\n' );

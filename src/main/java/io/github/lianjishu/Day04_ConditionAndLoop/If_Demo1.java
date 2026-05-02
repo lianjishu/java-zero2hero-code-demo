@@ -1,3 +1,4 @@
+package io.github.lianjishu.Day04_ConditionAndLoop;
 import java.util.Scanner;
 public class If_Demo1 {
     /* if的第一种格式 */

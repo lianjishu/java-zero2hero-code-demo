@@ -1,3 +1,4 @@
+package io.github.lianjishu.Day06_Method;
 public class Arr {
     public static void main(String[] args) {
         int[] arr = {1,2,3};

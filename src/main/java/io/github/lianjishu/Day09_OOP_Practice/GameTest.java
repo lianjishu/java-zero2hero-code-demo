@@ -1,3 +1,4 @@
+package io.github.lianjishu.Day09_OOP_Practice;
 public class GameTest {
     public static void main(String[] args) {
         Role QiaoFeng = new Role("乔峰");

@@ -1,3 +1,4 @@
+package io.github.lianjishu.Day16_17_Jigsawgame;
 
 import javax.swing.*;
 import javax.swing.border.BevelBorder;
@@ -90,10 +91,10 @@ public class GameJFrame extends JFrame implements KeyListener {
         this.initJFrame();
         //初始化菜单栏
         this.initJMenuBar();
-        //初始化图片资源
-        this.initImage();
         //设置背景图片 | 总是默认在底部放置图片
         this.initBackGround();
+        //初始化图片资源
+        this.initImage();
         //设置窗口显示
         this.setVisible(true);
     }

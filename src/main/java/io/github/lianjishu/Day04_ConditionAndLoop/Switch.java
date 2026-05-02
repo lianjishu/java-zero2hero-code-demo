@@ -1,3 +1,4 @@
+package io.github.lianjishu.Day04_ConditionAndLoop;
 public class Switch {
     public static void main(String[] args) {
         /*

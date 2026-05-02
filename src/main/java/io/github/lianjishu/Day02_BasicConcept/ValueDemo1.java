@@ -1,3 +1,4 @@
+package io.github.lianjishu.Day02_BasicConcept;
 public class ValueDemo1{
     // public static Array str = ;
     public static void main(String[] args){

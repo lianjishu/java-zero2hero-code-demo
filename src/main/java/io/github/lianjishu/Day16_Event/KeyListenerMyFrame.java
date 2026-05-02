@@ -1,10 +1,10 @@
+package io.github.lianjishu.Day16_Event;
 
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
-public class MyFrame extends JFrame implements KeyListener {
+public class KeyListenerMyFrame extends JFrame implements KeyListener {
 
     @Override
     public void keyTyped(KeyEvent e) {
@@ -22,7 +22,7 @@ public class MyFrame extends JFrame implements KeyListener {
         System.out.println("松开时调用");
     }
 
-    public MyFrame() {
+    public KeyListenerMyFrame() {
         this.setLayout(null);
         this.setSize(500, 500);
         this.setTitle("测试按键");

@@ -1,6 +1,5 @@
-import java.util.PrimitiveIterator;
+package io.github.lianjishu.Day04_ConditionAndLoop;
 import java.util.Scanner;
-import java.util.Stack;
 
 public class Practice {
     static Scanner scanner = new Scanner(System.in);
@@ -33,9 +32,9 @@ public class Practice {
             return;
         }
         if(id%2 == 0){
-            System.out.println("坐左边");
-        }else{
             System.out.println("坐右边");
+        }else{
+            System.out.println("坐左边");
         }
     }
 

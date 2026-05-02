@@ -1,3 +1,4 @@
+package io.github.lianjishu.Day11_OOP_Plus_ArrayList_StudentsMS;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -20,7 +21,7 @@ public class StudentMS {
 
     private static int find(String id) {
         for (int i = 0; i < data.size(); ++i) {
-            if(data.get(i).getSid() == id)
+            if(data.get(i).getSid().equals(id))
                 return i;
         }
         return -1;

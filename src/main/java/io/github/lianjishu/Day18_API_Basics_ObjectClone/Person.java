@@ -1,3 +1,5 @@
+package io.github.lianjishu.Day18_API_Basics_ObjectClone;
+
 
 import java.util.Objects;
 
@@ -41,7 +43,12 @@ public class Person implements Cloneable{
     //重写转字符串方法 | 默认输出类的地址值
     @Override
     public String toString() {
-        return "Student{"+"name='" + name + "'" + ", age='" + age + "'" + "}";
+        return "Person{"+"name='" + name + "'" + ", age='" + age + "'" + "}";
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, age);
     }
 
     public int getAge() {

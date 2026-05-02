@@ -1,3 +1,4 @@
+package io.github.lianjishu.Day18_API_Basics_ObjectClone;
 /**
  * 判断自幂数
  * 自幂数，一个n位自然数等于自身各个数位上数字的n次幂之和

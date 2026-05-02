@@ -1,3 +1,4 @@
+package io.github.lianjishu.Day18_API_Basics_ObjectClone;
 
 import java.io.IOException;
 
@@ -30,16 +31,16 @@ public class TestRuntime {
         //6.剩余内存大小
         System.out.println(Runtime.getRuntime().freeMemory() / 1024 / 1024);//251
 
-        //7.运行cmd命令
+        //7.运行cmd命令 (注意: 不要执行真正的关机命令，以下仅作演示)
         //shutdown :关机
         //加上参数才能执行
         //-s :默认在1分钟之后关机
         //-s -t 指定时间 : 指定关机时间
         //-a :取消关机操作
         //-r: 关机并重启
-        Runtime.getRuntime().exec("shutdown -s -t 3600");  //jdk18弃用
-        //现代写法
-        ProcessBuilder processBuilder = new ProcessBuilder("shutdown", "-s", "-t", "3600");
+        //Runtime.getRuntime().exec("shutdown -s -t 3600");  //jdk18弃用
+        //现代写法 (使用无害命令演示)
+        ProcessBuilder processBuilder = new ProcessBuilder("echo", "Hello from ProcessBuilder");
         Process process = processBuilder.start();
         int exitCode = process.waitFor();
         System.out.println("命令执行完成，退出代码: " + exitCode);

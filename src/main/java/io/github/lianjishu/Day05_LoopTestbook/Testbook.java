@@ -1,4 +1,4 @@
-import javax.swing.text.StyledEditorKit;
+package io.github.lianjishu.Day05_LoopTestbook;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -18,21 +18,21 @@ public class Testbook {
             if(num % 7 == 0){
                 System.out.println("过!");
                 continue;
-            }else {
-                int digit = 0;
-                while (num != 0) {
-                    digit = num % 10;
-                    num /= 10;
-                    if (digit == 7) {
-                        System.out.println("过!");
-                        break;
-                    }else{
-                        System.out.println(i);
-                        break;
-                    }
-                }
             }
-
+            boolean hasSeven = false;
+            int temp = num;
+            while (temp != 0) {
+                if (temp % 10 == 7) {
+                    hasSeven = true;
+                    break;
+                }
+                temp /= 10;
+            }
+            if (hasSeven) {
+                System.out.println("过!");
+            } else {
+                System.out.println(i);
+            }
         }
     }
 
@@ -44,10 +44,14 @@ public class Testbook {
         System.out.println("要判断质数,请先输入一个整数: ");
         int num = sc.nextInt();
         boolean is_prime = true;
-        for(int i=2; i<num; ++i) {
-            if(num % i == 0) {
-                is_prime = false;
-                break;
+        if (num <= 1) {
+            is_prime = false;
+        } else {
+            for(int i=2; i<num; ++i) {
+                if(num % i == 0) {
+                    is_prime = false;
+                    break;
+                }
             }
         }
         System.out.println(is_prime ? "YES" : "NO");

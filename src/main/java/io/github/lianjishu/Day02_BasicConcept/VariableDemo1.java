@@ -1,3 +1,4 @@
+package io.github.lianjishu.Day02_BasicConcept;
 public class VariableDemo1 {
     public static void test(){
         //定义变量

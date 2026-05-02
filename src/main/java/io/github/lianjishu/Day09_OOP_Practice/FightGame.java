@@ -1,3 +1,4 @@
+package io.github.lianjishu.Day09_OOP_Practice;
 public class FightGame {
     private Role roleA;
     private Role roleB;
@@ -12,7 +13,7 @@ public class FightGame {
         while(roleA.getHp()>0 && roleB.getHp()>0){
             int damage_A2B = roleA.attack(roleB);
             System.out.println(roleA.getName()+"打了"+roleB.getName()+"一下，" +
-                    "造成了"+damage_A2B+"点伤害，"+roleB.getName()+"还剩下"+roleB.getHp()+"点伤害");
+                    "造成了"+damage_A2B+"点伤害，"+roleB.getName()+"还剩下"+roleB.getHp()+"点血量");
             if(roleB.getHp() == 0) break;
             int damage_B2A = roleB.attack(roleA);
             System.out.println(roleB.getName()+"打了"+roleA.getName()+"一下，" +

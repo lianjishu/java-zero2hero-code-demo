@@ -1,3 +1,4 @@
+package io.github.lianjishu.Day02_BasicConcept;
 import java.util.Scanner; //导包
 public class KeyboardInput {
     public static void main(String[] args) {

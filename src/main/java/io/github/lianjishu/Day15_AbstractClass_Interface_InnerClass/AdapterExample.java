@@ -1,3 +1,4 @@
+package io.github.lianjishu.Day15_AbstractClass_Interface_InnerClass;
 // 当一个接口中的抽象方法比较多的时候, 而我们只需要使用其中一部分, 使用
 // 适配器可以实现这个目的
 

@@ -1,5 +1,4 @@
-
-import com.sun.jdi.event.ThreadStartEvent;
+package io.github.lianjishu.Day15_AbstractClass_Interface_InnerClass;
 
 public abstract class Person {
     private String name;

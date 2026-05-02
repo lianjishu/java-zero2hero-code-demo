@@ -1,3 +1,4 @@
+package io.github.lianjishu.Day03_Operator;
 import java.util.Scanner;
 public class TernaryOperator {
     // 案例一:

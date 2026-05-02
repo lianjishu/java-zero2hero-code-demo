@@ -1,3 +1,4 @@
+package io.github.lianjishu.Day18_API_Basics_ObjectClone;
 
 import java.io.IOException;
 
@@ -11,9 +12,9 @@ import java.io.IOException;
       * public Process exec(String command) 运行cmd命令
      */
 
-public class TestRuntime {
+public class TestRuntime_20260430 {
     public static void main(String[] args) throws IOException, InterruptedException {
         System.out.println("获得CPU的线程数: ");
-        System.out.println(new Runtime.availableProcessors());
+        System.out.println(Runtime.getRuntime().availableProcessors());
     }
 }

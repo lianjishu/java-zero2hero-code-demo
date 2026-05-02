@@ -1,4 +1,4 @@
-import java.nio.file.FileSystemAlreadyExistsException;
+package io.github.lianjishu.Day04_ConditionAndLoop;
 import java.util.Scanner;
 public class If_Demo3 {
     /*
@@ -18,10 +18,10 @@ public class If_Demo3 {
         double pay = 1000;
         System.out.println("你是会员吗? Y/n");
         String yesOno = sc.next();
-        if(yesOno == "N" || yesOno == "n"){
-            System.out.println("实际应付: " + price + '元');
+        if(yesOno.equals("N") || yesOno.equals("n")){
+            System.out.println("实际应付: " + price + "元");
             return;
-        }else if(yesOno == "Y" || yesOno == "y"){
+        }else if(yesOno.equals("Y") || yesOno.equals("y")){
             System.out.println("请输入会员级别: ");
             int level = sc.nextInt();
             if(level == 1)
@@ -34,7 +34,7 @@ public class If_Demo3 {
                 System.out.println("你的输入有误! ");
                 return;
             }
-            System.out.println("实际应付: " + price + '元');
+            System.out.println("实际应付: " + pay + "元");
         }
     }
 

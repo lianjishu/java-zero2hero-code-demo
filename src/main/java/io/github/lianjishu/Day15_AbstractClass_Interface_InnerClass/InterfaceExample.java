@@ -1,4 +1,5 @@
-public Interface InterfaceExample {
+package io.github.lianjishu.Day15_AbstractClass_Interface_InnerClass;
+public interface InterfaceExample {
     public abstract void method_A();
     public abstract void method_B();
     public abstract void method_C();

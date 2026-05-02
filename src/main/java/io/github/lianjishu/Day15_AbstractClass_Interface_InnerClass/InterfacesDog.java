@@ -1,3 +1,4 @@
+package io.github.lianjishu.Day15_AbstractClass_Interface_InnerClass;
 
 class Dog extends Pet implements Swimming {
     public Dog(String name, int age) {

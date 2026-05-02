@@ -1,3 +1,4 @@
+package io.github.lianjishu.Day02_BasicConcept;
 import java.util.Stack;
 
 public class ComputerData {
@@ -19,10 +20,14 @@ public class ComputerData {
             stack.push(num % 2);
             num /= 2;
             if(num == 0) break;
-        }   
-
-        return 0;
-        
+        }
+        int result = 0;
+        int base = 1;
+        while (!stack.isEmpty()) {
+            result += stack.pop() * base;
+            base *= 10;
+        }
+        return result;
     }
     public static void main(String[] args) {
         example();

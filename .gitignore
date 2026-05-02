@@ -1,0 +1,30 @@
+# Compiled class files
+Day01-Beginner-Level/target/
+Day02-BasicConcept/target/
+Day03-Operator/target/
+Day04-ConditionAndLoop/target/
+Day05-LoopTestbook/target/
+Day06-Method/target/
+Day07-Comprehensive_Exercise/target/
+Day08-OOP/target/
+Day09-OOP-Practice/target/
+Day10-String/target/
+Day11-OOP_Plus_ArrayList_StudentsMS/target/
+Day14-OOP_Plus_Comprehensive_Exercis/target/
+Day15-AbstractClass_Interface_InnerClass/target/
+Day16-Event/target/
+Day16_17-Jigsawgame/target/
+Day20-API-Time-WrapperClass/target/
+Day22-Collection-ListCollection/target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

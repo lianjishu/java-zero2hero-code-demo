@@ -1,7 +1,13 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class TicketManager {
+public class TicketPool {
+
+    public static Object LOCK = new Object();
+
+    public static boolean isEmpty() {
+        return TicketPool.remaining==0;
+    }
 
     private static ArrayList<Ticket> tickets = new ArrayList<>(Arrays.asList(
             // 阿凡达2 - 10:00 场 (5张)
@@ -87,15 +93,15 @@ public class TicketManager {
     private static Integer remaining = tickets.size();
 
     public static Integer getRemaining() {
-        return TicketManager.remaining;
+        return TicketPool.remaining;
     }
 
     public static void setRemaining(int remaining) {
-        TicketManager.remaining = remaining;
+        TicketPool.remaining = remaining;
     }
 
     public static void setTickets(ArrayList<Ticket> tickets) {
-        TicketManager.tickets = tickets;
+        TicketPool.tickets = tickets;
     }
 
     public static ArrayList<Ticket> getTickets() {

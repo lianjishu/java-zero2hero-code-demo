@@ -1,9 +1,9 @@
 package implement1;
 
-public class TestFindPrimeThread {
+public class TestFooThread {
     public static void main(String[] args) {
-        FindPrimeThread fpt1 = new FindPrimeThread();
-        FindPrimeThread fpt2 = new FindPrimeThread();
+        FooThread fpt1 = new FooThread();
+        FooThread fpt2 = new FooThread();
 
         fpt1.setName("线程1");
         fpt2.setName("线程2");

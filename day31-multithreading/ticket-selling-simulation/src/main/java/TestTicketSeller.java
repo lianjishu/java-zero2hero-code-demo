@@ -1,5 +1,6 @@
-public class TestTicketSelling {
-    public static void main(String[] args) {
+public class TestTicketSeller {
+
+    static void testTicketSeller() {
         Thread t1 = new Thread(new TicketSeller());
         Thread t2 = new Thread(new TicketSeller());
         Thread t3 = new Thread(new TicketSeller());
@@ -16,4 +17,11 @@ public class TestTicketSelling {
         t6.start();
         t7.start();
     }
+
+
+    public static void main(String[] args) {
+        System.out.println(Thread.currentThread().getName() + "总票数: " + TicketPool.getTickets().size());
+         TestTicketSeller.testTicketSeller();
+    }
+
 }

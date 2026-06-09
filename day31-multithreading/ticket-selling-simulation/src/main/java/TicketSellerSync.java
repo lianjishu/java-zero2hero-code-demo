@@ -1,9 +1,10 @@
-public class TicketSellerSynchr implements Runnable {
+public class TicketSellerSync implements Runnable {
 
-    private void runLogic() {
+    private void runLogic() throws InterruptedException {
         while(true) {
 
             //互斥锁
+            Thread.sleep(100);
             synchronized (TicketPool.class) {
                 //阻塞等待
                 // ... ...
@@ -11,12 +12,14 @@ public class TicketSellerSynchr implements Runnable {
                 //临界区
                 if(!TicketPool.isEmpty()) {
                     //一次取一张
+
                     int next = TicketPool.getTickets().size() - TicketPool.getRemaining();
                     TicketPool.setRemaining(TicketPool.getRemaining()-1);
                     System.out.println(String.format("%s : \"%s\"已售出, 余票数: %s",
                             Thread.currentThread().getName(),
                             TicketPool.getTickets().get(next).toString(),
-                            TicketPool.getRemaining()));
+                            TicketPool.getRemaining()
+                    ));
                 } else {
                     break;
                 }
@@ -29,7 +32,11 @@ public class TicketSellerSynchr implements Runnable {
 
     @Override
     public void run() {
-        runLogic();
+        try {
+            runLogic();
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
     }
 
 }

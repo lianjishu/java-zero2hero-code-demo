@@ -1,22 +1,18 @@
-//import java.util.ArrayList;
-
-public class TicketWindow implements Runnable {
+public class TicketSeller implements Runnable {
 
     private void runLogic() {
         while(true) {
-            //P操作
-            if(TicketPool.getRemaining() > 0) {
-                for (Ticket t : TicketPool.getTickets()) {
-                    TicketPool.setRemaining(TicketPool.getRemaining()-1);
-                    System.out.println(
-                            Thread.currentThread().getName() + ": " + "售卖" + t.getId()
-                    );
-                }
+            if(!TicketPool.isEmpty()) {
+                //一次取一张
+                int next = TicketPool.getTickets().size() - TicketPool.getRemaining();
+                TicketPool.setRemaining(TicketPool.getRemaining()-1);
+                System.out.println(String.format("%s : \"%s\"已售出, 余票数: %s",
+                        Thread.currentThread().getName(),
+                        TicketPool.getTickets().get(next).toString(),
+                        TicketPool.getRemaining()));
             } else {
                 break;
             }
-            //临界区
-            //V操作
 
         }
     }

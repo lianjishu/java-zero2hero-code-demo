@@ -7,6 +7,33 @@
     <groupId>io.github.lianjishu</groupId>
     <artifactId>java-zero2hero-code-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>day01-beginner-level</module>
+        <module>day02-basic-concept</module>
+        <module>day03-operator</module>
+        <module>day04-condition-and-loop</module>
+        <module>day05-loop-testbook</module>
+        <module>day06-method</module>
+        <module>day07-comprehensive-exercise</module>
+        <module>day08-oop</module>
+        <module>day09-oop-practice</module>
+        <module>day10-string</module>
+        <module>day11-oop-plus-arraylist-studentsms</module>
+        <module>day14-oop-plus-comprehensive-exercise</module>
+        <module>day15-abstract-class-interface-inner-class</module>
+        <module>day16-17-jigsawgame</module>
+        <module>day16-event</module>
+        <module>day18-api-basics-object-clone</module>
+        <module>day19-api-regular-expression</module>
+        <module>day20-api-time-wrapper-class</module>
+        <module>day21-api-algo-lambda</module>
+        <module>day22-collections-framework-list</module>
+        <module>day33-inet-program</module>
+        <module>day31-multithreading</module>
+        <module>day32-mutithreading-and-juc</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>

@@ -33,6 +33,8 @@
         <module>day33-inet-program</module>
         <module>day31-multithreading</module>
         <module>day32-mutithreading-and-juc</module>
+        <module>day31-multithreading/producer-and-consumer</module>
+        <module>day31-multithreading/multiproducer-and-multiconsumer</module>
     </modules>
 
     <properties>

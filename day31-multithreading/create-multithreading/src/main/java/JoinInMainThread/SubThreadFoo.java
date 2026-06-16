@@ -1,3 +1,5 @@
+package JoinInMainThread;
+
 public class SubThreadFoo implements Runnable {
     @Override
     public void run() {

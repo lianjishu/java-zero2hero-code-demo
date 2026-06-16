@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -12,10 +11,9 @@
     <artifactId>day31-multithreading</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>three-implements-multithreading</module>
-        <module>join-main-thread</module>
+        <module>create-multithreading</module>
         <module>ticket-selling-simulation</module>
-        <module>deadlock-demo</module>
+        <module>threading-synchronization</module>
     </modules>
 
     <properties>

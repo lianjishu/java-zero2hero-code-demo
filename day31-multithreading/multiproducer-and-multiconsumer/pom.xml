@@ -5,11 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>io.github.lianjishu</groupId>
-        <artifactId>day31-multithreading</artifactId>
+        <artifactId>java-zero2hero-code-demo</artifactId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
     </parent>
 
-    <artifactId>deadlock-demo</artifactId>
+    <artifactId>multiproducer-and-multiconsumer</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>

@@ -11,30 +11,34 @@
 
 ## 项目结构
 
-```
-src/main/java/io/github/lianjishu/
-├── Day01-Beginner-Level/          入门基础 - HelloWorld
-├── Day02-BasicConcept/            基本概念 - 变量、数据类型、键盘输入
-├── Day03-Operator/                运算符 - 逻辑运算符、三元运算符
-├── Day04-ConditionAndLoop/        条件判断与循环 - if、switch、for
-├── Day05-LoopTestbook/            循环练习题
-├── Day06-Method/                  方法与数组
-├── Day07-Comprehensive_Exercise/  综合练习 - 数字加密、机票、验证码
-├── Day08-OOP/                     面向对象编程入门
-├── Day09-OOP-Practice/            OOP 实战 - 文字格斗游戏
-├── Day10-String/                  字符串操作 - 模拟登录、罗马数字
-├── Day11-OOP_..._StudentsMS/      ArrayList 与学生管理系统
-├── Day14-OOP_..._Comprehensive/   OOP 综合练习 - 动物继承体系
-├── Day15-Abstract_Interface_.../  抽象类、接口、内部类、适配器模式
-├── Day16-Event/                   GUI 事件监听
-├── Day16_17-Jigsawgame/           拼图游戏 (Swing GUI)
-├── Day18-API-Basics-ObjectClone/  API 基础 - Math、Object、Runtime、克隆
-├── Day19-API-RegularExpression/   正则表达式 (预留)
-├── Day20-API-Time-WrapperClass/   时间 API 与包装类
-├── Day21-API-Algo-Lambda/         算法与 Lambda 表达式 (预留)
-├── Day22-Collection-List/         集合框架 - List
-└── Day33-InetProgram/             网络编程 - InetAddress
-```
+所有 Java 代码统一位于 `src/main/java/io/github/lianjishu/` 之下。
+各 Day 的代码通过子包 / 源码文件名前缀区分(详见各 day 模块下的 pom.xml)。
+
+| 模块 | 简介 |
+| --- | --- |
+| day01-beginner-level | 入门基础 - HelloWorld |
+| day02-basic-concept | 基本概念 - 变量、数据类型、键盘输入 |
+| day03-operator | 运算符 - 逻辑运算符、三元运算符 |
+| day04-condition-and-loop | 条件判断与循环 - if、switch、for |
+| day05-loop-testbook | 循环练习题 |
+| day06-method | 方法与数组 |
+| day07-comprehensive-exercise | 综合练习 - 数字加密、机票、验证码 |
+| day08-oop | 面向对象编程入门 |
+| day09-oop-practice | OOP 实战 - 文字格斗游戏 |
+| day10-string | 字符串操作 - 模拟登录、罗马数字 |
+| day11-oop-plus-arraylist-studentsms | ArrayList 与学生管理系统 |
+| day14-oop-plus-comprehensive-exercise | OOP 综合练习 - 动物继承体系 |
+| day15-abstract-class-interface-inner-class | 抽象类、接口、内部类、适配器模式 |
+| day16-17-jigsawgame | 拼图游戏 (Swing GUI) |
+| day16-event | GUI 事件监听 |
+| day18-api-basics-object-clone | API 基础 - Math、Object、Runtime、克隆 |
+| day19-api-regular-expression | 正则表达式 |
+| day20-api-time-wrapper-class | 时间 API 与包装类 |
+| day21-api-algo-lambda | 算法与 Lambda 表达式 (预留) |
+| day22-collections-framework-list | 集合框架 - List |
+| day33-inet-program | 网络编程 - InetAddress |
+| day31-multithreading | 多线程练习 |
+| day32-mutithreading-and-juc | JUC 练习 |
 
 ## 使用方式
 
@@ -51,4 +55,4 @@ mvn clean
 - 本项目为个人学习用途，代码以演示为主
 - 每个 Day 目录相对独立，可单独查看
 - Day 编号对应课程天数，部分编号缺失属于正常跳过
-- Day19、Day21 为预留目录，暂无代码
+- Day21 为预留目录，暂无代码

@@ -10,6 +10,6 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>day16-17-jigsawgame</artifactId>
+    <artifactId>day17-jigsawgame</artifactId>
 
 </project>

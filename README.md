@@ -29,7 +29,7 @@
 | day11-oop-plus-arraylist-studentsms | ArrayList 与学生管理系统 |
 | day14-oop-plus-comprehensive-exercise | OOP 综合练习 - 动物继承体系 |
 | day15-abstract-class-interface-inner-class | 抽象类、接口、内部类、适配器模式 |
-| day16-17-jigsawgame | 拼图游戏 (Swing GUI) |
+| day17-jigsawgame | 拼图游戏 (Swing GUI) |
 | day16-event | GUI 事件监听 |
 | day18-api-basics-object-clone | API 基础 - Math、Object、Runtime、克隆 |
 | day19-api-regular-expression | 正则表达式 |

@@ -8,35 +8,27 @@ public class QuickSort implements SortStrategy {
 
     @Override
     public void doSort(List<Integer> nums) {
-        int n = nums.size();
-        for (int i = 0; i < n - 1; ++i) {
-            int base = nums.get(i);
-            int left = i + 1; // 左指针 : 向右寻找比base大的数
-            int right = n - 1; // 右指针 : 向左寻找比base小的数
-            while (left < right) {
-                // 先动right
-                while (left < right && nums.get(right) >= base) {
-                    right--;
-                }
-                // 再动left
-                while (left < right && nums.get(left) <= base) {
-                    left++;
-                }
-                // swap(nums[left],nums[right])
-                int temp = nums.get(left);
-                nums.set(left, nums.get(right));
-                nums.set(right, temp);
+//        6, 1, 2, 7, 9, 3, 4, 5, 10, 8
 
-                right--;
-                left++;
-            }
-            int temp = nums.get(left);
-            nums.set(left, nums.get(right));
-            nums.set(right, temp);
-        }
+//      [Loop1] start=0 end=9 base=6
+//        (3, 1, 2, 5, 4), 6, (9, 7, 10, 8)
+//      [Loop2] start=0 end=4 base=3
+//        (2, 1, 3, 5, 4), 6, (9, 7, 10, 8)
+
+//      [Loop3] start=6 end=9 base=9
+//        (2, 1), 3, (5, 4), 6, (8, 7), 9, (10)
+//      [Loop4] start=0 end=1 base=2
+//        (1, 2), 3, (5, 4), 6, (8, 7), 9, (10)
+//      [Loop5] start=3 end=4 base=5
+//        (1, 2), 3, (4, 5), 6, (8, 7), 9, (10)
+//      [Loop6] start=6 end=7 base=8
+//        (1, 2), 3, (4, 5), 6, (7, 8), 9, (10)
+//      END...
+        quickSortCallback(nums, 0, nums.size() - 1);
+
     }
 
-    public static void main(String[] args) {
+    private static void doLoop01() {
         List<Integer> nums = new ArrayList<>(Arrays.asList(6, 1, 2, 7, 9, 3, 4, 5, 10, 8));
         // 6, 1, 2, 7, 9, 3, 4, 5, 10, 8   || Base: 6
         // L ------------------------- R
@@ -112,5 +104,51 @@ public class QuickSort implements SortStrategy {
         nums.set(i, temp);
         SortStrategy.printer(nums);
         // }
+    }
+
+    private static void testDoSort() {
+//        quickSortCallback
+    }
+
+    /**
+     * @param nums  待排序数组
+     * @param start 要查找的范围起始索引
+     * @param end   要查找的范围终点索引
+     */
+    private static void quickSortCallback(List<Integer> nums, int start, int end) {
+//        SortStrategy.printer(nums);
+        int i = start;
+        int j = end;
+        if (i > j) return;
+        int base = nums.get(i);
+
+        while (i < j) {
+            //移动右指针j寻找第一个小于base的数
+            while (i < j && nums.get(j) >= base) j--;
+            //移动左指针i寻找第一个大于base的数
+            while (i < j && nums.get(i) <= base) i++;
+            //交换nums[i],nums[j]
+            int temp = nums.get(i);
+            nums.set(i, nums.get(j));
+            nums.set(j, temp);
+        }
+        // [3 1 2 5 4]
+
+        // [3   1   2   5   4]
+        //         i-j
+
+        // 此时i=j, 基准数归位
+        int temp = nums.get(i);
+        nums.set(i, base);
+        nums.set(start, temp);
+
+        quickSortCallback(nums, start, i - 1);
+        quickSortCallback(nums, i + 1, end);
+
+    }
+
+    public static void main(String[] args) {
+        new QuickSort().doSort(new ArrayList<>(Arrays.asList(6, 1, 2, 7, 9, 3, 4, 5, 10, 8)));
+
     }
 }

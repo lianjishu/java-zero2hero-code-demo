@@ -12,10 +12,10 @@ public class BinarySearch implements SearchStrategy {
     public int doSearch(List<Integer> nums, int target) {
         int n = nums.size();
         int left = 0, right = n - 1;
-        while (left < right) {
+        while (left <= right) { //一定要加`=`
             int mid = (right - left) / 2 + left;
-            if(target < nums.get(mid))
-                right = mid-1;
+            if (target < nums.get(mid))
+                right = mid - 1;
             else if (target > nums.get(mid))
                 left = mid + 1;
             else
@@ -25,8 +25,14 @@ public class BinarySearch implements SearchStrategy {
 
     }
 
-//    @Override
-//    public int doSearchAdvanced(List<Integer> nums, int target) {
-//        return 0;
-//    }
+    // 二分查找插入点
+    public int doSearchForInsertion(List<Integer> nums, int target) {
+        return -1;
+    }
+
+    // 二分查找左边界
+    public int doSearchForLeftEdge(List<Integer> nums, int target) {
+        return -1;
+    }
+
 }

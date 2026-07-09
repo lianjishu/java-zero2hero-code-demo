@@ -1,5 +1,6 @@
 package io.github.lianjishu.Algo.Sort;
 
+import java.util.Arrays;
 import java.util.List;
 
 public interface SortStrategy {
@@ -20,12 +21,6 @@ public interface SortStrategy {
     }
 
     static void printer(List<Integer> nums) {
-        System.out.print("[ ");
-        for (int elem : nums) {
-            System.out.printf("%d ", elem);
-        }
-        System.out.print("]");
-        System.out.println();
-
+        System.out.println(Arrays.toString(nums.toArray()));;
     }
 }

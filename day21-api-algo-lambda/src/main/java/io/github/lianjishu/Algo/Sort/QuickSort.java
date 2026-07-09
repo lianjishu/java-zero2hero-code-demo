@@ -146,9 +146,4 @@ public class QuickSort implements SortStrategy {
         quickSortCallback(nums, i + 1, end);
 
     }
-
-    public static void main(String[] args) {
-        new QuickSort().doSort(new ArrayList<>(Arrays.asList(6, 1, 2, 7, 9, 3, 4, 5, 10, 8)));
-
-    }
 }

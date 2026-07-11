@@ -1,17 +1,17 @@
-package io.github.lianjishu.FiveExercises.SortExercise;
+package io.github.lianjishu.FiveExercises.SortingGirlfriend;
 
-public class GirlFriend {
-    private String name; // 姓名
-    private int age; // 年龄
-    private double height; // 身高
-    private double bust; // 胸围
-    private double waist; // 腰围
-    private double hips; // 臀围
+public class Girlfriend {
+    private String name;    // 姓名
+    private int    age;     // 年龄
+    private double height;  // 身高
+    private double bust;    // 胸围
+    private double waist;   // 腰围
+    private double hips;    // 臀围
 
-    public GirlFriend() {
+    public Girlfriend() {
     }
 
-    public GirlFriend(String name, int age, double height, double bust, double waist, double hips) {
+    public Girlfriend(String name, int age, double height, double bust, double waist, double hips) {
         this.name = name;
         this.age = age;
         this.height = height;

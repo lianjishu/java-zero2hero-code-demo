@@ -35,6 +35,7 @@
         <module>day32-mutithreading-and-juc</module>
         <module>day31-multithreading/producer-and-consumer</module>
         <module>day31-multithreading/multiproducer-and-multiconsumer</module>
+        <module>day23-collection-generics-set-datastructure</module>
     </modules>
 
     <properties>

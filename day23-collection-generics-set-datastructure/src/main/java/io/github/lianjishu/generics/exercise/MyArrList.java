@@ -392,7 +392,7 @@ public class MyArrList<E> implements List<E> {
      *                                   fromIndex > toIndex})
      */
     @Override
-    public List subList(int fromIndex, int toIndex) {
+    public List<E> subList(int fromIndex, int toIndex) {
         return List.of();
     }
 
@@ -507,7 +507,8 @@ public class MyArrList<E> implements List<E> {
      * @throws NullPointerException if the specified array is null
      */
     @Override
+    @SuppressWarnings("unchecked")
     public <T> T[] toArray(T[] a) {
-        return new Object[0];
+        return (T[]) Arrays.copyOf(a, 0, a.getClass());
     }
 }

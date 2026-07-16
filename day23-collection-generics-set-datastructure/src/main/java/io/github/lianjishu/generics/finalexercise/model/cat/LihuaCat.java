@@ -1,6 +1,6 @@
 package io.github.lianjishu.generics.finalexercise.model.cat;
 
-public class LihuaCat extends Cat {
+public final class LihuaCat extends Cat {
     public LihuaCat() {
     }
 

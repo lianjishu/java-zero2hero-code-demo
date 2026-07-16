@@ -1,6 +1,6 @@
 package io.github.lianjishu.generics.finalexercise.model.dog;
 
-public class Husky extends Dog {
+public final class Husky extends Dog {
     public Husky() {
     }
 

@@ -1,6 +1,6 @@
 package io.github.lianjishu.generics.finalexercise.model.cat;
 
-public class PersianCat extends Cat {
+public final class PersianCat extends Cat {
     public PersianCat() {
     }
 

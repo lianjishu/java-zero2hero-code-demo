@@ -1,6 +1,5 @@
 package io.github.lianjishu.set.exerciseA;
 
-import java.sql.SQLOutput;
 import java.util.*;
 
 /**

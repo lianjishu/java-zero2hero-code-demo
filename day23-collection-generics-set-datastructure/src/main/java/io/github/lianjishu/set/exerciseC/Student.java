@@ -26,6 +26,9 @@ public class Student implements Comparable<Student> {
     /** 出生日期 */
     private LocalDate birthday;
 
+    /** 年龄 */
+    private int age;
+
     /** 无参构造方法 */
     public Student() {
     }
@@ -34,6 +37,8 @@ public class Student implements Comparable<Student> {
     public Student(String name, LocalDate birthday) {
         this.name = name;
         this.birthday = birthday;
+        // this.age = 现在-生日;
+        this.age = Period.between(birthday, LocalDate.now()).getYears();
     }
 
     /** 获取姓名 */
@@ -90,12 +95,45 @@ public class Student implements Comparable<Student> {
         // 提示：
         // 1. 用 Integer.compare(this.getAge(), other.getAge()) 比较年龄
         // 2. 年龄相同时,用 this.name.compareToIgnoreCase(other.name) 比较姓名
-        // 3. 年龄和姓名都相同时,返回 0(TreeSet 据此判定重复)
-        return 0;
+        // 3. 年龄和姓名都相同时, 返回 0(TreeSet 据此判定重复)
+        int byAge = this.age - other.getAge();
+        // int byAge = other.age - this.getAge();
+        if (byAge != 0)
+            return byAge;
+        return this.name.compareToIgnoreCase(other.getName());
     }
 
     @Override
     public String toString() {
         return "Student{name='" + name + "', age=" + getAge() + ", birthday=" + birthday + "}";
     }
+
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + ((name == null) ? 0 : name.hashCode());
+        result = prime * result + age;
+        return result;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        Student other = (Student) obj;
+        if (name == null) {
+            if (other.name != null)
+                return false;
+        } else if (!name.equals(other.name))
+            return false;
+        if (age != other.age)
+            return false;
+        return true;
+    }
+
 }

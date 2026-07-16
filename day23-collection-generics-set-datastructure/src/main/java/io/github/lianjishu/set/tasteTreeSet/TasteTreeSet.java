@@ -3,10 +3,9 @@ package io.github.lianjishu.set.tasteTreeSet;
 import java.util.TreeSet;
 
 public class TasteTreeSet {
-/**
- * 利用TreeSet存储整数并且进行排序
- */
-public class ExerciseD {
+    /**
+     * 利用TreeSet存储整数并且进行排序
+     */
     public static void main(String[] args) {
         // 创建TreeSet对象
         TreeSet<Integer> nums = new TreeSet<>();

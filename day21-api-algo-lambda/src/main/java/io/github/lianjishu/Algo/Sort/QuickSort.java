@@ -106,10 +106,6 @@ public class QuickSort implements SortStrategy {
         // }
     }
 
-    private static void testDoSort() {
-//        quickSortCallback
-    }
-
     /**
      * @param nums  待排序数组
      * @param start 要查找的范围起始索引

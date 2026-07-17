@@ -98,7 +98,7 @@ public class Student implements Comparable<Student> {
         // 1. 用 Integer.compare(this.getAge(), other.getAge()) 比较年龄
         // 2. 年龄相同时,用 this.name.compareToIgnoreCase(other.name) 比较姓名
         // 3. 年龄和姓名都相同时, 返回 0(TreeSet 据此判定重复)
-        int byAge = this.age - other.getAge(); 
+        int byAge = this.age - other.getAge();
         // int byAge = other.age - this.getAge();
         if (byAge != 0)
             return byAge;
@@ -110,32 +110,32 @@ public class Student implements Comparable<Student> {
         return "Student{name='" + name + "', age=" + getAge() + ", birthday=" + birthday + "}";
     }
 
-    @Override
-    public int hashCode() {
-        final int prime = 31;
-        int result = 1;
-        result = prime * result + ((name == null) ? 0 : name.hashCode());
-        result = prime * result + age;
-        return result;
-    }
+    // @Override
+    // public int hashCode() {
+    // final int prime = 31;
+    // int result = 1;
+    // result = prime * result + ((name == null) ? 0 : name.hashCode());
+    // result = prime * result + age;
+    // return result;
+    // }
 
-    @Override
-    public boolean equals(Object obj) {
-        if (this == obj)
-            return true;
-        if (obj == null)
-            return false;
-        if (getClass() != obj.getClass())
-            return false;
-        Student other = (Student) obj;
-        if (name == null) {
-            if (other.name != null)
-                return false;
-        } else if (!name.equals(other.name))
-            return false;
-        if (age != other.age)
-            return false;
-        return true;
-    }
-    
+    // @Override
+    // public boolean equals(Object obj) {
+    // if (this == obj)
+    // return true;
+    // if (obj == null)
+    // return false;
+    // if (getClass() != obj.getClass())
+    // return false;
+    // Student other = (Student) obj;
+    // if (name == null) {
+    // if (other.name != null)
+    // return false;
+    // } else if (!name.equals(other.name))
+    // return false;
+    // if (age != other.age)
+    // return false;
+    // return true;
+    // }
+
 }

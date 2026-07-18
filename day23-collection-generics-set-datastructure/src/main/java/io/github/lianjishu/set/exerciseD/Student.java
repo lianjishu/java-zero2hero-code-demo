@@ -3,8 +3,6 @@ package io.github.lianjishu.set.exerciseD;
 import java.time.LocalDate;
 import java.time.Period;
 
-import javax.print.DocFlavor.BYTE_ARRAY;
-
 /**
  * 学生类
  * <p>

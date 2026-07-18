@@ -38,11 +38,11 @@ public class ExerciseD {
         TreeSet<Student> students = new TreeSet<>();
         students.add(new Student("Sweetie Fox ", LocalDate.of(2001, 6, 25)));
         students.add(new Student("Diana Rider", LocalDate.of(2003, 8, 27)));
-        students.add(new Student("comatozze", LocalDate.of(2004, 11, 27)));
+        students.add(new Student("Comatozze", LocalDate.of(2004, 11, 27)));
         students.add(new Student("Polly Yangs", LocalDate.of(2004, 8, 11)));
-        students.add(new Student("vanessa alessia", LocalDate.of(2004, 2, 20)));
-        students.add(new Student("cutie kim", LocalDate.of(2003, 3, 1)));
-        students.add(new Student("Dainty  wilder", LocalDate.of(2001, 9, 28)));
+        students.add(new Student("Vanessa Alessia", LocalDate.of(2004, 2, 20)));
+        students.add(new Student("Cutie Kim", LocalDate.of(2003, 3, 1)));
+        students.add(new Student("Dainty Wilder", LocalDate.of(2001, 9, 28)));
         students.add(new Student("Sierra Cute", LocalDate.of(2001, 1, 15)));
         students.add(new Student("Bella Spark", LocalDate.of(2000, 8, 11)));
         students.add(new Student("Jia lissa", LocalDate.of(1996, 9, 1)));

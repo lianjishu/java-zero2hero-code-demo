@@ -10,6 +10,6 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>day22-collections-framework-list</artifactId>
+    <artifactId>day22-collection-framework-list</artifactId>
 
 </project>

@@ -29,7 +29,7 @@
         <module>day19-api-regular-expression</module>
         <module>day20-api-time-wrapper-class</module>
         <module>day21-api-algo-lambda</module>
-        <module>day22-collections-framework-list</module>
+        <module>day22-collection-framework-list</module>
         <module>day33-inet-program</module>
         <module>day31-multithreading</module>
         <module>day32-mutithreading-and-juc</module>

@@ -1,4 +1,4 @@
-package traversalMethod.hashmap;
+package map.hashmap.traversalMethod;
 
 import java.util.Map;
 import java.util.Set;

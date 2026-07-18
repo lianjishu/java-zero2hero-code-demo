@@ -1,10 +1,9 @@
-package traversalMethod.hashmap;
+package map.hashmap.traversalMethod;
 /**
  * Map集合的第二种遍历方式
  */
 
 import java.util.HashMap;
-import java.util.Map;
 
 /**
  * 三个课堂练习：

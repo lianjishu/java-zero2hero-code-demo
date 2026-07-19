@@ -1,4 +1,4 @@
-package map.hashmap.hashmapExercise;
+package map.hashmap.exerciseA;
 
 import java.util.Objects;
 

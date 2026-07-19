@@ -1,4 +1,4 @@
-package map.hashmap.hashmapExercise;
+package map.hashmap.exerciseA;
 
 //案例需求
 //创建一个HashMap集合，键是学生对象(Student)，

@@ -1,4 +1,4 @@
-package map.treemap.exercise;
+package map.treemap.exerciseA;
 
 import java.util.Map;
 import java.util.Set;

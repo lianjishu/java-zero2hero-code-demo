@@ -36,7 +36,7 @@
         <module>day31-multithreading/producer-and-consumer</module>
         <module>day31-multithreading/multiproducer-and-multiconsumer</module>
         <module>day23-collection-generics-set-datastructure</module>
-        <module>day24-map-varargs-collections-utils</module>
+        <module>day24-map-varargs-collections</module>
     </modules>
 
     <properties>

@@ -37,6 +37,7 @@
         <module>day31-multithreading/multiproducer-and-multiconsumer</module>
         <module>day23-collection-generics-set-datastructure</module>
         <module>day24-map-varargs-collections</module>
+        <module>day25-comprehensivexercise-doudizhugame</module>
     </modules>
 
     <properties>

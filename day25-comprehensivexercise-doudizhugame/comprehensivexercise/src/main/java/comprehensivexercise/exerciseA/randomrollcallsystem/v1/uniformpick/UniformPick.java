@@ -14,7 +14,7 @@ public class UniformPick {
         this.roster = roster;
     }
 
-    public String doPick() {
+    public String selectName() {
         int luckyDog = random.nextInt(roster.length);
         return roster[luckyDog];
     }

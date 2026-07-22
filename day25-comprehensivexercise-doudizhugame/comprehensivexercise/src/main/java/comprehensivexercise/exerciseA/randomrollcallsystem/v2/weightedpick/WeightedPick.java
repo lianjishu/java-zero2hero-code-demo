@@ -1,5 +1,6 @@
 package comprehensivexercise.exerciseA.randomrollcallsystem.v2.weightedpick;
 
+import java.util.List;
 import java.util.Random;
 
 /**
@@ -11,20 +12,21 @@ import java.util.Random;
  * </ul>
  */
 public class WeightedPick {
-    private Random random = new Random();
-    private String[] roster = null;
+    private static int[] genderList = new int[]{0, 0, 0, 1, 1, 1, 1, 1, 1, 1};
 
-    public void receive(String[] roster) {
-        this.roster = roster;
-//        Random
+    private int selectMaleOrFemale() {
+        return genderList[new Random().nextInt(genderList.length)];
     }
 
-    public String doPick() {
-        int luckyDog = random.nextInt(roster.length);
-        return roster[luckyDog];
+    public String selectName(List<String> maleList, List<String> femaleList) {
+        int gender = this.selectMaleOrFemale();
+        Random r = new Random();
+        return switch (gender) {
+            case 0 -> femaleList.get(r.nextInt(femaleList.size()));
+            case 1 -> maleList.get(r.nextInt(maleList.size()));
+            default -> "";
+        };
     }
 
-    public void show() {
-        System.out.println();
-    }
+
 }

@@ -108,4 +108,11 @@ public class Way2GetStream {
         Stream.of("A", "B", "C", "D").forEach(s -> System.out.print(s + " "));
         System.out.println();
     }
+
+    public static void main(String[] args) {
+        fromCollection();
+        fromMap();
+        fromPrimitiveArray();
+        fromSpecifiedData();
+    }
 }

@@ -1,4 +1,4 @@
-package operations.terminal;
+package stream.operations.terminal;
 
 import java.util.ArrayList;
 import java.util.Arrays;

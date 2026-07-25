@@ -1,4 +1,4 @@
-package tastestream;
+package stream.tastestream;
 
 import java.text.CollationElementIterator;
 import java.util.ArrayList;

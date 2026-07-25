@@ -1,4 +1,4 @@
-package way2getstream;
+package stream.way2getstream;
 
 import javax.print.attribute.standard.PrinterURI;
 import java.util.*;

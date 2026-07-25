@@ -1,4 +1,4 @@
-package operations.terminal;
+package stream.operations.terminal;
 
 import java.util.*;
 import java.util.function.Function;

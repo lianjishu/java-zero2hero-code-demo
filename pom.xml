@@ -38,6 +38,7 @@
         <module>day23-collection-generics-set-datastructure</module>
         <module>day24-map-varargs-collections</module>
         <module>day25-comprehensivexercise-doudizhugame</module>
+        <module>day26-collection-stream-method-reference</module>
     </modules>
 
     <properties>

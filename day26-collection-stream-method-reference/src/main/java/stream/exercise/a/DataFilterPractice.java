@@ -1,5 +1,9 @@
 package stream.exercise.a;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.stream.Collectors;
+
 /**
  * 练习
  * <p>
@@ -12,6 +16,19 @@ package stream.exercise.a;
  * 并将结果保存起来
  */
 public class DataFilterPractice {
+    static ArrayList<Integer> nums = new ArrayList<>();
+
+    static {
+        Collections.addAll(nums, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+    }
+
+    private static ArrayList<Integer> getEven() {
+        return nums.stream()
+                .filter(num -> num % 2 == 0)
+                .collect(Collectors.toCollection(ArrayList::new));
+    }
+
     public static void main(String[] args) {
+        System.out.println("evenList: " + getEven());
     }
 }

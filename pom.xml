@@ -39,6 +39,7 @@
         <module>day24-map-varargs-collections</module>
         <module>day25-comprehensivexercise-doudizhugame</module>
         <module>day26-collection-stream-method-reference</module>
+        <module>day27-io-exception-file-comprehensive-case</module>
     </modules>
 
     <properties>

@@ -3,7 +3,6 @@ package methodrefs.exercise.c;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.function.Function;
 
 import methodrefs.exercise.common.Student;
 

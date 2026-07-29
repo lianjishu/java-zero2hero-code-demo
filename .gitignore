@@ -13,3 +13,7 @@ out/
 .DS_Store
 Thumbs.db
 .claude/
+
+# Python (误入 Java 工程的临时产物)
+__pycache__/
+*.avi

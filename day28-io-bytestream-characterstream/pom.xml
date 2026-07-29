@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>day27-io-exception-file-comprehensive-case</artifactId>
+    <artifactId>day28-io-bytestream-characterstream</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>

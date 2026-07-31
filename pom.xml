@@ -41,7 +41,7 @@
         <module>day26-collection-stream-method-reference</module>
         <module>day27-io-exception-file</module>
         <module>day28-io-bytestream-characterstream</module>
-        <module>day29-buffered-io</module>
+        <module>day29-buffered-io-serialization</module>
     </modules>
 
     <properties>

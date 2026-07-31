@@ -1,4 +1,4 @@
-package exercise.a;
+package bufferedio.exercise.a;
 
 import java.io.*;
 

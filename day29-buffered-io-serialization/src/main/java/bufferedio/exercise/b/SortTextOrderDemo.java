@@ -1,4 +1,4 @@
-package exercise.b;
+package bufferedio.exercise.b;
 
 import javax.annotation.processing.Filer;
 import java.io.*;

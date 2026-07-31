@@ -1,4 +1,4 @@
-package bufferedreader.taste;
+package bufferedio.bufferedreader.taste;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

@@ -1,4 +1,4 @@
-package bufferedwriter.taste;
+package bufferedio.bufferedwriter.taste;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

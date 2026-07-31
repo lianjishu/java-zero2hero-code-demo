@@ -1,4 +1,4 @@
-package bufferedinputstream.taste;
+package bufferedio.bufferedinputstream.taste;
 
 import java.io.*;
 

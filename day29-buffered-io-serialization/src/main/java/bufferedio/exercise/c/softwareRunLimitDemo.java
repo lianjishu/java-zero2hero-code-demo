@@ -1,4 +1,4 @@
-package exercise.c;
+package bufferedio.exercise.c;
 
 import java.io.*;
 import java.util.regex.Matcher;

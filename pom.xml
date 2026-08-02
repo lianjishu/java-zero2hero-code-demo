@@ -42,6 +42,8 @@
         <module>day27-io-exception-file</module>
         <module>day28-io-bytestream-characterstream</module>
         <module>day29-buffered-serialization-convert-print-zip-stream-commonsio-hutool</module>
+        <module>day29-io-final-exercise</module>
+        <module>day30-comprehensive-exercise</module>
     </modules>
 
     <properties>

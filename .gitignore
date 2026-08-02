@@ -21,3 +21,7 @@ __pycache__/
 # 练习产生的输入/输出目录(运行产物,不入库)
 day28-io-bytestream-characterstream/src/main/java/exercise/a/dist/
 day28-io-bytestream-characterstream/src/main/java/exercise/a/testDirA/
+
+# day29 模块的第三方 jar 和运行产物(摸 classpath 原理用,暂不入库)
+day29-buffered-serialization-convert-print-zip-stream-commonsio-hutool/lib/commons-io-2.22.0.jar
+day29-buffered-serialization-convert-print-zip-stream-commonsio-hutool/src/main/resources/

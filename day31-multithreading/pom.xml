@@ -14,6 +14,7 @@
         <module>create-multithreading</module>
         <module>ticket-selling-simulation</module>
         <module>threading-synchronization</module>
+        <module>final-exercise</module>
     </modules>
 
     <properties>

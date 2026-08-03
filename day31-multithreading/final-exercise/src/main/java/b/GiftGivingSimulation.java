@@ -7,4 +7,11 @@ package b;
  */
 public class GiftGivingSimulation {
 
+    public static void main(String[] args) {
+        Giving giving = new Giving(100);
+        Thread p1 = new Thread(giving);
+        Thread p2 = new Thread(giving);
+        p1.start();
+        p2.start();
+    }
 }

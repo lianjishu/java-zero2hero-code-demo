@@ -10,6 +10,6 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>day33-inet-program</artifactId>
+    <artifactId>day33-network-programming</artifactId>
 
 </project>

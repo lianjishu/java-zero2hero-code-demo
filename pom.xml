@@ -23,18 +23,13 @@
         <module>day11-oop-plus-arraylist-studentsms</module>
         <module>day14-oop-plus-comprehensive-exercise</module>
         <module>day15-abstract-class-interface-inner-class</module>
-        <module>day17-jigsawgame</module>
         <module>day16-event</module>
+        <module>day17-jigsawgame</module>
         <module>day18-api-basics-object-clone</module>
         <module>day19-api-regular-expression</module>
         <module>day20-api-time-wrapper-class</module>
         <module>day21-api-algo-lambda</module>
         <module>day22-collection-framework-list</module>
-        <module>day33-network-programming</module>
-        <module>day31-multithreading</module>
-        <module>day32-mutithreading-and-juc</module>
-        <module>day31-multithreading/producer-and-consumer</module>
-        <module>day31-multithreading/multiproducer-and-multiconsumer</module>
         <module>day23-collection-generics-set-datastructure</module>
         <module>day24-map-varargs-collections</module>
         <module>day25-comprehensivexercise-doudizhugame</module>
@@ -44,6 +39,11 @@
         <module>day29-buffered-serialization-convert-print-zip-stream-commonsio-hutool</module>
         <module>day29-io-final-exercise</module>
         <module>day30-comprehensive-exercise</module>
+        <module>day31-multithreading</module>
+        <module>day31-multithreading/producer-and-consumer</module>
+        <module>day31-multithreading/multiproducer-and-multiconsumer</module>
+        <module>day32-mutithreading-and-juc</module>
+        <module>day33-network-programming</module>
     </modules>
 
     <properties>

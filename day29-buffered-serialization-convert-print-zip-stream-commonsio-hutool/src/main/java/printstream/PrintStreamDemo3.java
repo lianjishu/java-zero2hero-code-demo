@@ -7,7 +7,7 @@ import java.io.PrintWriter;
 
 public class PrintStreamDemo3 {
     public static void main(String[] args) throws IOException {
-/*
+    /*
         字符打印流：
             构造方法
                 public PrintWriter(Write/File/String)            关联字节输出流/文件/文件路径

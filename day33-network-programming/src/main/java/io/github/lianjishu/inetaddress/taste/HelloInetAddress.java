@@ -1,9 +1,10 @@
-package io.github.lianjishu;
+package io.github.lianjishu.inetaddress.taste;
+
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 
 public class HelloInetAddress {
-    //获取...
+    // 获取...
     public void testGetByName() throws UnknownHostException {
         InetAddress ip = InetAddress.getByName("qtoken.vip");
         System.out.println(ip);

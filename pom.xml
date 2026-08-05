@@ -44,6 +44,9 @@
         <module>day31-multithreading/multiproducer-and-multiconsumer</module>
         <module>day32-mutithreading-and-juc</module>
         <module>day33-network-programming</module>
+        <module>day34-final-project-chatroom</module>
+        <module>day35-reflection-and-dynamic-proxy</module>
+        <module>day36-log-classloader-unit-test-annotaion</module>
     </modules>
 
     <properties>

@@ -46,7 +46,7 @@
         <module>day33-network-programming</module>
         <module>day34-final-project-chatroom</module>
         <module>day35-reflection-and-dynamic-proxy</module>
-        <module>day36-log-classloader-unit-test-annotaion</module>
+        <module>day36-log-classloader-xml-unittest-annotaion</module>
     </modules>
 
     <properties>

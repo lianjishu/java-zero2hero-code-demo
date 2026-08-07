@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<bookstore>
+    <book id="1">
+        <title>Java 编程思想</title>
+        <author>Bruce Eckel</author>
+        <price currency="CNY">99.00</price>
+        <published>2007-06-01</published>
+    </book>
+    <book id="2">
+        <title>Effective Java</title>
+        <author>Joshua Bloch</author>
+        <price currency="CNY">79.00</price>
+        <published>2018-01-01</published>
+    </book>
+</bookstore>

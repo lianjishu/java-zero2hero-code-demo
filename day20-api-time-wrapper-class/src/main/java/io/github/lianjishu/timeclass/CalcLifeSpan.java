@@ -1,4 +1,4 @@
-package io.github.lianjishu.TimeClass;
+package io.github.lianjishu.timeclass;
 
 /**
  *

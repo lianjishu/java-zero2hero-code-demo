@@ -1,4 +1,4 @@
-package io.github.lianjishu.WrapperClass;
+package io.github.lianjishu.wrapperclass;
 
 
 public class DiyToBanaryString {

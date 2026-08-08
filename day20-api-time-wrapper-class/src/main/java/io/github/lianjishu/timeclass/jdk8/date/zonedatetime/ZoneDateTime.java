@@ -1,4 +1,4 @@
-package io.github.lianjishu.timeclass.jdk8.zonedatetime;
+package io.github.lianjishu.timeclass.jdk8.date.zonedatetime;
 
 import java.time.Instant;
 import java.time.ZoneId;
